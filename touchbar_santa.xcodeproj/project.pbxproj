@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E53D5651DED01CF00CE8E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53D5641DED01CF00CE8E6B /* AppDelegate.swift */; };
+		3E53D5691DED01D800CE8E6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5661DED01D800CE8E6B /* Info.plist */; };
+		3E53D56A1DED01D800CE8E6B /* SantaCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53D5671DED01D800CE8E6B /* SantaCanvas.swift */; };
+		3E53D56B1DED01D800CE8E6B /* SantaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53D5681DED01D800CE8E6B /* SantaViewController.swift */; };
+		3E53D56D1DED01DF00CE8E6B /* SantaCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D56C1DED01DF00CE8E6B /* SantaCanvas.xib */; };
+		3E53D56F1DED01E300CE8E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D56E1DED01E300CE8E6B /* Assets.xcassets */; };
+		3E53D5711DED01EA00CE8E6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5701DED01EA00CE8E6B /* Info.plist */; };
+		3E53D5741DED01FD00CE8E6B /* ic_volume_off_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5721DED01FD00CE8E6B /* ic_volume_off_3x.png */; };
+		3E53D5751DED01FD00CE8E6B /* ic_volume_up_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5731DED01FD00CE8E6B /* ic_volume_up_3x.png */; };
+		3E53D5781DED020700CE8E6B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5761DED020700CE8E6B /* icon.png */; };
+		3E53D5791DED020700CE8E6B /* santa_long@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D5771DED020700CE8E6B /* santa_long@2x.gif */; };
+		3E53D57B1DED020E00CE8E6B /* santa_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D57A1DED020E00CE8E6B /* santa_music.mp3 */; };
+		3E53D57F1DED026C00CE8E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E53D57D1DED026C00CE8E6B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E53D5641DED01CF00CE8E6B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = touchbar_santa/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3E53D5661DED01D800CE8E6B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = touchbar_santa/Info.plist; sourceTree = SOURCE_ROOT; };
+		3E53D5671DED01D800CE8E6B /* SantaCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SantaCanvas.swift; path = touchbar_santa/SantaCanvas.swift; sourceTree = SOURCE_ROOT; };
+		3E53D5681DED01D800CE8E6B /* SantaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SantaViewController.swift; path = touchbar_santa/SantaViewController.swift; sourceTree = SOURCE_ROOT; };
+		3E53D56C1DED01DF00CE8E6B /* SantaCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SantaCanvas.xib; path = touchbar_santa/SantaCanvas.xib; sourceTree = SOURCE_ROOT; };
+		3E53D56E1DED01E300CE8E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = touchbar_santa/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		3E53D5701DED01EA00CE8E6B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = touchbar_santa/Info.plist; sourceTree = SOURCE_ROOT; };
+		3E53D5721DED01FD00CE8E6B /* ic_volume_off_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_volume_off_3x.png; path = touchbar_santa/ic_volume_off_3x.png; sourceTree = SOURCE_ROOT; };
+		3E53D5731DED01FD00CE8E6B /* ic_volume_up_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_volume_up_3x.png; path = touchbar_santa/ic_volume_up_3x.png; sourceTree = SOURCE_ROOT; };
+		3E53D5761DED020700CE8E6B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = touchbar_santa/icon.png; sourceTree = SOURCE_ROOT; };
+		3E53D5771DED020700CE8E6B /* santa_long@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "santa_long@2x.gif"; path = "touchbar_santa/santa_long@2x.gif"; sourceTree = SOURCE_ROOT; };
+		3E53D57A1DED020E00CE8E6B /* santa_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = santa_music.mp3; path = touchbar_santa/santa_music.mp3; sourceTree = SOURCE_ROOT; };
+		3E53D57E1DED026C00CE8E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = touchbar_santa/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		A362A1021DCE6D6B00737197 /* touchbar_santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_santa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A362A0FF1DCE6D6B00737197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A362A0F91DCE6D6B00737197 = {
+			isa = PBXGroup;
+			children = (
+				A362A1041DCE6D6B00737197 /* touchbar_santa */,
+				A362A1031DCE6D6B00737197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A362A1031DCE6D6B00737197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A362A1021DCE6D6B00737197 /* touchbar_santa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A362A1041DCE6D6B00737197 /* touchbar_santa */ = {
+			isa = PBXGroup;
+			children = (
+				A3A050DA1DCE96B2009D9775 /* sound */,
+				A3826CD61DCE73EA00B7C41E /* img */,
+				3E53D5661DED01D800CE8E6B /* Info.plist */,
+				3E53D5671DED01D800CE8E6B /* SantaCanvas.swift */,
+				3E53D5681DED01D800CE8E6B /* SantaViewController.swift */,
+				3E53D5641DED01CF00CE8E6B /* AppDelegate.swift */,
+				3E53D56C1DED01DF00CE8E6B /* SantaCanvas.xib */,
+				3E53D56E1DED01E300CE8E6B /* Assets.xcassets */,
+				3E53D57D1DED026C00CE8E6B /* Main.storyboard */,
+				3E53D5701DED01EA00CE8E6B /* Info.plist */,
+			);
+			name = touchbar_santa;
+			path = touchbar_nyancat;
+			sourceTree = "<group>";
+		};
+		A3826CD61DCE73EA00B7C41E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3E53D5721DED01FD00CE8E6B /* ic_volume_off_3x.png */,
+				3E53D5731DED01FD00CE8E6B /* ic_volume_up_3x.png */,
+				3E53D5761DED020700CE8E6B /* icon.png */,
+				3E53D5771DED020700CE8E6B /* santa_long@2x.gif */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		A3A050DA1DCE96B2009D9775 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				3E53D57A1DED020E00CE8E6B /* santa_music.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A362A1011DCE6D6B00737197 /* touchbar_santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_santa" */;
+			buildPhases = (
+				A362A0FE1DCE6D6B00737197 /* Sources */,
+				A362A0FF1DCE6D6B00737197 /* Frameworks */,
+				A362A1001DCE6D6B00737197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchbar_santa;
+			productName = touchbar_nyancat;
+			productReference = A362A1021DCE6D6B00737197 /* touchbar_santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A362A0FA1DCE6D6B00737197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AVatsaev;
+				TargetAttributes = {
+					A362A1011DCE6D6B00737197 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGY846S9FX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_santa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A362A0F91DCE6D6B00737197;
+			productRefGroup = A362A1031DCE6D6B00737197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A362A1011DCE6D6B00737197 /* touchbar_santa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A362A1001DCE6D6B00737197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E53D5781DED020700CE8E6B /* icon.png in Resources */,
+				3E53D57F1DED026C00CE8E6B /* Main.storyboard in Resources */,
+				3E53D5791DED020700CE8E6B /* santa_long@2x.gif in Resources */,
+				3E53D5741DED01FD00CE8E6B /* ic_volume_off_3x.png in Resources */,
+				3E53D57B1DED020E00CE8E6B /* santa_music.mp3 in Resources */,
+				3E53D5691DED01D800CE8E6B /* Info.plist in Resources */,
+				3E53D5751DED01FD00CE8E6B /* ic_volume_up_3x.png in Resources */,
+				3E53D56D1DED01DF00CE8E6B /* SantaCanvas.xib in Resources */,
+				3E53D56F1DED01E300CE8E6B /* Assets.xcassets in Resources */,
+				3E53D5711DED01EA00CE8E6B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A362A0FE1DCE6D6B00737197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E53D5651DED01CF00CE8E6B /* AppDelegate.swift in Sources */,
+				3E53D56A1DED01D800CE8E6B /* SantaCanvas.swift in Sources */,
+				3E53D56B1DED01D800CE8E6B /* SantaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E53D57D1DED026C00CE8E6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E53D57E1DED026C00CE8E6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A362A10F1DCE6D6B00737197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A362A1101DCE6D6B00737197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A362A1121DCE6D6B00737197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGY846S9FX;
+				INFOPLIST_FILE = touchbar_santa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airbyte.touchbar-santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A362A1131DCE6D6B00737197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TGY846S9FX;
+				INFOPLIST_FILE = touchbar_santa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airbyte.touchbar-santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A362A10F1DCE6D6B00737197 /* Debug */,
+				A362A1101DCE6D6B00737197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A362A1121DCE6D6B00737197 /* Debug */,
+				A362A1131DCE6D6B00737197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A362A0FA1DCE6D6B00737197 /* Project object */;
+}
