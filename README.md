@@ -1,8 +1,8 @@
 # Touchbar Santa
 For when you need an extra bit of Santa in your life
 
-All credit goes to [TouchbarNyancat][touchbar_nyancat] - by @avatsaev
-Music by Jingle Bells (DNB Remix) - Naamless
+* All credit goes to [TouchbarNyancat][touchbar_nyancat] - by @avatsaev
+* Music by Jingle Bells (DNB Remix) - Naamless
 
 ## Other awesome TouchBar apps
 
