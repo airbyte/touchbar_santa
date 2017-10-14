@@ -135,7 +135,6 @@
 				TargetAttributes = {
 					A362A1011DCE6D6B00737197 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = TGY846S9FX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -297,9 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TGY846S9FX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = touchbar_santa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.airbyte.touchbar-santa";
@@ -312,9 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TGY846S9FX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = touchbar_santa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.airbyte.touchbar-santa";
