@@ -28,12 +28,12 @@ class SantaCanvas: NSImageView {
     }
     
     override func touchesBegan(with event: NSEvent) {
-        // Calling super causes the cat to jump back to its original position 🤔
+        // Calling super causes santa to jump back to its original position 🤔
         //super.touchesBegan(with: event)
     }
     
     override func touchesMoved(with event: NSEvent) {
-        if #available(OSX 10.12.1, *) {
+        if #available(OSX 10.12.2, *) {
             let current = event.allTouches().first?.location(in: self).x ?? 0
             let previous = event.allTouches().first?.previousLocation(in: self).x ?? 0
         
