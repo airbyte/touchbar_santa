@@ -3,7 +3,7 @@ For when you need an extra bit of Santa in your life
 
 ![](santa.gif)
 
-[Download App](https://drive.google.com/open?id=0B41_o9aSlnSuMFVCRlV0SDBNRUU)
+[Download App](https://drive.google.com/drive/folders/10_w92aFOWSVySBgQY6Fvbp98tPGB4CgC?usp=sharing)
 
 * All credit goes to [TouchbarNyancat][touchbar_nyancat] - by @avatsaev
 * Music by Jingle Bells (DNB Remix) - Naamless

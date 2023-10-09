@@ -22,7 +22,7 @@ class SantaCanvas: NSImageView {
         // Drawing code here.
       
         self.animates = true
-        self.image = NSImage(named: "santa_long@2x.gif")!
+        self.image = NSImage(named: NSImage.Name("santa_long@2x.gif"))!
         self.canDrawSubviewsIntoLayer = true
         self.frame = CGRect(x: xPosition, y: 0, width: 685, height: 30)
     }
