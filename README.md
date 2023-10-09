@@ -3,7 +3,9 @@ For when you need an extra bit of Santa in your life
 
 ![](santa.gif)
 
-[Download App](https://drive.google.com/drive/folders/10_w92aFOWSVySBgQY6Fvbp98tPGB4CgC?usp=sharing)
+Clone the repo and run the touchbar_santa app in the root directory or access the file below. You may need to go into Privacy & Security to allow the app to run by an unidentified developer, but now you've identified me it's safe to do so.
+
+[Download App](https://drive.google.com/file/d/11SoJqVcVCSfFW9wXbSOS5khxHI1rCNhZ/view)
 
 * All credit goes to [TouchbarNyancat][touchbar_nyancat] - by @avatsaev
 * Music by Jingle Bells (DNB Remix) - Naamless
